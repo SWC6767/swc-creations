@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Arial Black', sans-serif;
+    background-color: #000;
+    color: #0f0;
+    overflow-x: hidden;
+}
+header {
+    text-align: center;
+    padding: 40px 10px 20px;
+}
+.logo {
+    width: 150px;
+}
+.tagline {
+    font-size: 18px;
+    color: #aaa;
+}
+section {
+    padding: 30px;
+}
+h2 {
+    color: #fff;
+    text-shadow: 0 0 10px lime;
+}
+a {
+    color: #0ff;
+    text-decoration: underline;
+}
+.video-grid iframe {
+    width: 100%;
+    max-width: 600px;
+    height: 340px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+.product {
+    background: #111;
+    border: 2px solid #0f0;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.product:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px lime;
+}
+.placeholder {
+    border-bottom: 1px dashed #0f0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #0f0;
+    background-color: #000;
+    color: #0f0;
+}
+button {
+    padding: 10px;
+    background-color: #0f0;
+    border: none;
+    color: #000;
+    font-weight: bold;
+}
